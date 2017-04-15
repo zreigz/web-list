@@ -27,7 +27,7 @@ public class WebListResource {
 	Logger log = LoggerFactory.getLogger(WebListResource.class);
 
 	public WebListResource() {
-		String redisHost = System.getenv("REDIS_MASTER_SERVICE_HOST");
+		String redisHost = System.getenv("REDIS_SERVICE_HOST");
 		if(redisHost == null){
 			redisHost = "localhost";
 		}
