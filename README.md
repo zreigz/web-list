@@ -12,7 +12,7 @@ This is simple RESTful application to consume and display data. Redis is used as
 
 ## Configuration
 
-Set up Redis IP address using system environment variable: `REDIS_MASTER_SERVICE_HOST`
+Set up Redis IP address using system environment variable: `REDIS_SERVICE_HOST`
 If it is not set then `localhost` is used.
 
 ## Build
